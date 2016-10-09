@@ -5,7 +5,8 @@
 // the 2nd parameter is an array of 'requires'
 // 'starter.services' is found in services.js
 // 'starter.controllers' is found in controllers.js
-angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services',])
+var shroomifyApp = angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives','app.services'])
+
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -20,4 +21,24 @@ angular.module('app', ['ionic', 'app.controllers', 'app.routes', 'app.directives
       StatusBar.styleDefault();
     }
   });
+})
+
+.controller('photoCtrl', function($scope, ourCamera) {
+
+  $scope.getPhoto = function() {
+    console.log("foooooobar");
+    ourCamera.getPicture()/*.then(function(imageURI) {
+      
+      console.log(imageURI);
+      $scope.lastPhoto = imageURI;
+    }, function(err) {
+      console.err(err);
+    }, {
+      quality: 75,
+      targetWidth: 320,
+      targetHeight: 320,
+      saveToPhotoAlbum: false
+    })*/;
+  };
+
 })

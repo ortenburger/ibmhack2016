@@ -1,3 +1,6 @@
-<ion-view title="Photo" id="page3">
-    <ion-content padding="true" class="has-header"></ion-content>
-</ion-view>
+  <ion-view title="Photo" id="page3" >
+  <ion-content padding="true" class="has-header" ng-app="app" ng-controller="photoCtrl">
+    <button ng-click="getPhoto()" class="button button-block button-primary">Take Photo</button>
+    <img ng-src="{{lastPhoto}}" style="max-width: 100%">
+  </ion-content>
+  </ion-view>
