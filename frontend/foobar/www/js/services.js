@@ -1,14 +1,5 @@
 angular.module('app.services', [])
 
-
-/*.factory('ourCamera', function($http) {
-	return {
-		getPicture: function(){
-		
-		}
-	}
-})*/
-
 .factory('FileService', function() {
   var images;
   var IMAGE_STORAGE_KEY = 'images';
