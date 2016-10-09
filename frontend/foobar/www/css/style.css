@@ -1,12 +1,13 @@
-#page2 {background-image:url(/img/app-forest.jpg)}
-.ion-android-1 {background-image: url(../img/app-shroomify-03.png)!important;background-repeat:no-repeat}
-.ion-android-2 {background-image: url(../img/app-shroomify-04.png)!important;background-repeat:no-repeat}
-.ion-android-3 {background-image: url(../img/app-shroomify-02.png)!important;background-repeat:no-repeat}
-.nav-tabs, .tabs {background-image: none!important;background-color:none!important;}
+#page2 {background-image:url(/img/app-forest.jpg); max-width: 100%; display:block; height: auto;}
+.ion-android-1 {background-image: url(../img/app-shroomify-03.png)!important;background-repeat:no-repeat;background-position: center; }
+.ion-android-2 {background-image: url(../img/app-shroomify-04.png)!important;background-repeat:no-repeat;background-position: center; }
+.ion-android-3 {background-image: url(../img/app-shroomify-02.png)!important;background-repeat:no-repeat;background-position: center; }
+.nav-tabs, .tabs {background-image: none!important;background-color:rgba(0, 0, 0, 0.5)!important;}
 .tabs-stable > .tabs, .tabs.tabs-stable {
-	border-color: none!important;
-	background-color: none!important;
+	border-color: rgba(0, 0, 0, 0)!important;
+	background-color: rgba(0, 0, 0, 0)!important;
 	background-image: none!important;
 	color: #444;
-	border:none!important
+	border:0px!important
 }
+
