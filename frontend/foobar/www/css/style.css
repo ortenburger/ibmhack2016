@@ -1,0 +1,12 @@
+#page2 {background-image:url(/img/app-forest.jpg)}
+.ion-android-1 {background-image: url(../img/app-shroomify-03.png)!important;background-repeat:no-repeat}
+.ion-android-2 {background-image: url(../img/app-shroomify-04.png)!important;background-repeat:no-repeat}
+.ion-android-3 {background-image: url(../img/app-shroomify-02.png)!important;background-repeat:no-repeat}
+.nav-tabs, .tabs {background-image: none!important;background-color:none!important;}
+.tabs-stable > .tabs, .tabs.tabs-stable {
+	border-color: none!important;
+	background-color: none!important;
+	background-image: none!important;
+	color: #444;
+	border:none!important
+}
